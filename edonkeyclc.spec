@@ -1,12 +1,12 @@
 Summary:	Download file manager (official core)
 Summary(pl):	¦ci±gacz plików (oficjalny)
 Name:		edonkeyclc
-Version:	1.0.2
+Version:	1.1.0
 Release:	1
 License:	unknown
 Group:		Applications/Communications
 Source0:	http://www.zen18864.zen.co.uk/edonkey/%{version}/%{name}-%{version}_i386.tgz
-# Source0-md5:	21524c499fb95190f86913890e678a48
+# Source0-md5:	943d92390f63b349853f1847109c1a47
 Source1:	edonkey2k-core.sh
 Source2:	http://www.edonkey.com/server.met
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
