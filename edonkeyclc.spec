@@ -8,6 +8,7 @@ Group:		Applications/Communications
 Source0:	http://www.zen18864.zen.co.uk/edonkey/1.0.2/%{name}-%{version}_i386.tgz
 # Source0-md5:	21524c499fb95190f86913890e678a48
 Source1:	edonkey2k-core.sh
+Source2:	http://www.edonkey.com/server.met
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
 Provides:	eDonkey-core
 Obsoletes:	edonkey2k-core
@@ -29,7 +30,7 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 install -d $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 install usr/bin/edonkeyclc 			$RPM_BUILD_ROOT%{_bindir}
-install usr/share/edonkeyclc/server.met 	$RPM_BUILD_ROOT%{_datadir}/%{name}
+install %{SOURCE2}			 	$RPM_BUILD_ROOT%{_datadir}/%{name}
 install usr/share/edonkeyclc/contact.dat	$RPM_BUILD_ROOT%{_datadir}/%{name}
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_bindir}/edonkey-conf
