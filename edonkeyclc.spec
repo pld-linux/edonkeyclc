@@ -12,8 +12,8 @@ Source2:	http://www.edonkey.com/server.met
 URL:		http://ed2k-gtk-gui.sourceforge.net/core.shtml
 Provides:	eDonkey-core
 Obsoletes:	edonkey2k-core
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ExclusiveArch:	%{ix86}
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Download file manager hosted by http://www.edonkey2000.com/
@@ -51,5 +51,6 @@ echo ""
 %defattr(644,root,root,755)
 %doc usr/share/doc/%{name}/ChangeLog usr/share/doc/%{name}/README
 %attr(755,root,root) %{_bindir}/*
-%attr(644,root,root) %{_datadir}/%{name}/server.met
-%attr(644,root,root) %{_datadir}/%{name}/contact.dat
+%dir %{_datadir}/%{name}
+%{_datadir}/%{name}/server.met
+%{_datadir}/%{name}/contact.dat
