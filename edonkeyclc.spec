@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	1
 License:	unknown
 Group:		Applications/Communications
-Source0:	http://www.zen18864.zen.co.uk/edonkey/1.0.2/%{name}-%{version}_i386.tgz
+Source0:	http://www.zen18864.zen.co.uk/edonkey/%{version}/%{name}-%{version}_i386.tgz
 # Source0-md5:	21524c499fb95190f86913890e678a48
 Source1:	edonkey2k-core.sh
 Source2:	http://www.edonkey.com/server.met
