@@ -1,5 +1,5 @@
 Summary:	Download file manager (official core)
-Summary(pl.UTF-8):   Ściągacz plików (oficjalny)
+Summary(pl.UTF-8):	Ściągacz plików (oficjalny)
 Name:		edonkeyclc
 Version:	1.1.0
 Release:	1
